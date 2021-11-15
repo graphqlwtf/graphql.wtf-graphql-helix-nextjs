@@ -1,0 +1,24 @@
+{
+  "name": "graphql.wtf-graphql-helix-nextjs",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "8.3.1",
+    "graphql": "16.0.1",
+    "graphql-helix": "^1.9.1",
+    "next": "12.0.3",
+    "next-urql": "3.3.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "urql": "2.0.5"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.3"
+  }
+}
